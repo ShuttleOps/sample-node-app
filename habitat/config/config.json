@@ -1,5 +1,5 @@
 {
   "title": "{{ cfg.title }}",
-  "message": "You are running sample-node-app-1",
+  "message": "You are running sample-node-app",
   "port": {{ cfg.port }}
 }

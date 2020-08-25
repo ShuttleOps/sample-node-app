@@ -39,7 +39,7 @@ From the `habitat` directory in this repository, open the `plan.sh` file. It sho
 
 ```
 pkg_origin=your_origin
-pkg_name=sample-node-app-1
+pkg_name=sample-node-app
 pkg_version="1.0.0"
 pkg_deps=(core/node)
 ...

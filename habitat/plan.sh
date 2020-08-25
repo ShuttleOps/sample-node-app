@@ -12,7 +12,7 @@
 # To explore all Habitat-maintained and community-contributed packages,
 # visit the Habitat Builder depot at https://bldr.habitat.sh/#/pkgs.
 
-pkg_name=sample-node-app-1
+pkg_name=sample-node-app
 pkg_origin=your_origin
 pkg_version="1.0.0"
 pkg_deps=(core/node)
@@ -37,7 +37,7 @@ do_build() {
 do_install() {
 
   # The `pkg_prefix` variable contains the fully-qualified Studio-relative path to
-  # a specific build run (e.g., /hab/pkgs/<YOUR_ORIGIN>/sample-node-app-1/1.0.0/20190620174915).
+  # a specific build run (e.g., /hab/pkgs/<YOUR_ORIGIN>/sample-node-app/1.0.0/20190620174915).
   # In this callback, we copy the files that our application requires at runtime
   # into that directory, and once this step completes, Habitat will take
   # over to produce the finished package as a .hart file.
